@@ -49,5 +49,14 @@ body {
 .list-item {
   display: flex;
   align-items: center;
-  gap: 0.25em;
+  gap: 0.5em;
+}
+
+.todo-list input {
+  margin: 0;
+}
+
+.todo-list input:checked + label {
+  text-decoration-line: line-through;
+  text-decoration-color: #8c8b8b;
 }
