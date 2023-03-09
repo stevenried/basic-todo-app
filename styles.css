@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  background: #eaeff1;
+  font-family: 'Raleway', sans-serif;
+}
+
+.app {
+  background: #fff;
+  width: 70%;
+  padding: 1em;
+  min-height: 400px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.app input {
+  height: 35px;
+  font-size: 1.1rem;
+  padding-left: 0.5em;
+}
+
+.app button {
+  background: #e0efff;
+  color: #0077ff;
+  padding: 0.8em 1.2em;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.app button:hover,
+.app button:focus-visible {
+  background: #0077ff;
+  color: #e0efff;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+}
